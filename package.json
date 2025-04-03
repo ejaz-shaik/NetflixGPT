@@ -1,0 +1,30 @@
+{
+  "name": "netflixgpt",
+  "version": "1.0.0",
+  "description": "App that has features of Netflix along with GPT support",
+  "scripts": {
+    "start": "parcel index.html",
+    "prod": "parcel build index.html",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ejaz-shaik/NetflixGPT.git"
+  },
+  "author": "Ejaz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ejaz-shaik/NetflixGPT/issues"
+  },
+  "homepage": "https://github.com/ejaz-shaik/NetflixGPT#readme",
+  "devDependencies": {
+    "parcel": "^2.14.4"
+  },
+  "dependencies": {
+    "@tailwindcss/postcss": "^4.1.1",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-router": "^7.4.1",
+    "tailwindcss": "^4.1.1"
+  }
+}
